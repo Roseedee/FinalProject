@@ -1,0 +1,136 @@
+@import "style/main-style.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    position: absolute;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container .img, .container .form-input {
+    width: 50%;
+}
+
+.content {
+    display: flex;
+    width: 60%;
+}
+
+.content .img {
+    display: flex;
+    align-items: center;
+}
+
+.content .img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form-input {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input p.title {
+    font-size: 40px;
+    color: #6431DB;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-input form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+form .register {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+form .register a {
+    color: #B2DB60;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+
+.input-group {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: fit-content;
+    border: 1px solid #8B8B8B;
+    font-size: 15px;
+    font-weight: 300;
+    text-overflow: ellipsis;
+    margin-top: 20px
+}
+
+.input-group:hover {
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px 0 dodgerblue;
+}
+
+.input-group .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+}
+
+.input-group .icon-front img{
+    width: 32px;
+    height: 32px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+    font-weight: 300;
+    text-overflow: ellipsis;
+}
+
+.input-group .icon-end img {
+    width: 25px;
+}
+
+.input-group .icon-end {
+    border-radius: 0px 5px 5px 0;
+}
+
+.input-group .icon-end:hover {
+    background-color: #97E585;
+}
+
+input[type="submit"] {
+    margin: 0px;
+}
+
+.submit {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #6431DB;
+    color: black;
+}
+
+.submit:hover {
+    background-color: #6431DB;
+    color: white;
+}

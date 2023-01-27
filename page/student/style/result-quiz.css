@@ -1,0 +1,41 @@
+@import "public-style-st.css";
+
+.banner {
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+
+.title-quiz {
+    padding: 15px 0px 0px 30px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.container-result-quiz {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 15px 30px 30px 30px;
+}
+
+.chart {
+    padding: 10px 80px;
+    display: flex;
+    text-align: center;
+}
+
+.container-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+

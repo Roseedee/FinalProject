@@ -1,0 +1,144 @@
+@import "public-style-st.css";
+
+.content-register {
+    padding-bottom: 50px;
+}
+
+.form-input {   
+    width: 100%;
+    padding: 0px auto;
+}
+
+.form-input form {
+    min-width: 300px;
+    width: 45%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}
+
+.form-input form span {
+    display: block;
+    font-size: 20px;
+}
+
+.input-section {
+    margin-top: 10px;
+}
+
+.input-username {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #8B8B8B;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.input-username:hover {
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px 0 dodgerblue;
+}
+
+.input-username .icon-textbox {
+    margin: 8px 10px 5px 10px;
+}
+
+.input-username .icon-textbox img {
+    width: 32px;
+    height: auto;
+}
+
+.input-username input {
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0,0);
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.input-password {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #8B8B8B;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-password .icon-textbox {
+    padding: 10px 10px 5px 10px;
+}
+
+.input-password .icon-textbox img {
+    width: 32px;
+    height: auto;
+}
+
+.input-password input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.input-password:hover {
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px 0 dodgerblue;
+}
+
+
+.input-password .icon-show {
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.input-password .icon-show:hover {
+    background-color: #97E585;
+}
+
+
+.box-submit input[type="submit"] {
+    padding: 10px 50px;
+    border: 2px solid #97E585;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.box-submit input[type="submit"]:hover {
+    background-color: #97E585;
+}
+
+.input-section .psw-level {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+.input-section .psw-level .psw-level-tab {
+    height: 5px;
+    width: 24%;
+    background-color: #EEDCDC;
+}
+
+.checkbox {
+    margin-bottom: 50px;
+}
+
+.checkbox input[type="checkbox"] {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.checkbox label {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.box-submit {
+    text-align: right;
+}

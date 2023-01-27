@@ -1,0 +1,127 @@
+@import "public-style-st.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #97E585;
+    border-radius: 10px 10px 0 0;
+}
+
+.title div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title div p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.title div .btn-prev {
+    border-radius: 10px 0 0 0;
+    padding: 10px 10px;
+}
+
+.title div .btn-prev:hover {
+    background-color: #BFCEAB;
+}
+
+.title div .btn-prev img {
+    width: 40%;
+}
+
+.sub-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.sub-menu a {
+    padding: 0px 40px;
+}
+
+.content-settings {
+    padding: 50px 150px;
+}
+
+.section-menu {
+    padding: 20px 0px;
+}
+
+.section-menu .section-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.section {
+    padding: 10px 50px;
+}
+
+.section table {
+    width: 100%;
+}
+
+.section table tr td {
+    padding: 5px 0px;
+}
+
+.section table tr td form {
+    display: none;
+}
+
+.section form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section form div {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.section form .container-input {
+    margin: 5px 0px;
+}
+
+.section form .container-input input {
+    margin-right: 10px;;
+}
+
+input.container-input {
+    display: none;
+}
+
+
+
+
+@media (max-width: 1300px) {
+    .content-settings {
+        padding: 40px 100px;
+    }
+}
+@media (max-width: 1200px) {
+    .content-settings {
+        padding: 30px 75px;
+    }
+}
+@media (max-width: 1100px) {
+    .content-settings {
+        padding: 20px 50px;
+    }
+}
+@media (max-width: 1000px) {
+    .content-settings {
+        padding: 10px 25px;
+    }
+}

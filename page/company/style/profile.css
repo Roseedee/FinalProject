@@ -1,0 +1,209 @@
+@import "public-style-cp.css";
+
+:root {
+    --content_font_size_l : 18;
+    --content_font_size_std : 16px;
+    --content_font_size_m : 14px;
+    --content_font_size_s : 12px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-menu {
+    display: flex;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.sub-menu a {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: #bdbdbd;
+    padding: 3px 10px 3px 3px;
+    border-radius: 20px;
+    margin: 0px 10px;
+    color: #000;
+}
+
+.sub-menu a .icon-sub-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.sub-menu a img {
+    width: 60%;
+}
+
+.sub-menu a span {
+    font-size: 0.9vw;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.sub-menu a:hover {
+    background-color: #DFDFDF;
+}
+
+.content-profile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 50px 100px;
+}
+
+.sub-content-profile {
+    width: 50%;
+    padding: 15px 10px;
+}
+
+.sub-content-profile-end {
+    float: left;
+}
+
+.user-img-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.user-img-container .logo {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-img-container .logo img {
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.45);
+}
+
+.user-img-container .another {
+    flex-grow: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-img-container .another .company-name {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.user-img-container .another .star {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.user-img-container .another .star img {
+    width: 32px;
+    margin: 10px 0px;
+    height: auto;
+}
+
+.user-img-container .another .picture-company {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.user-img-container .another .picture-company img {
+    width: 200px;
+}
+
+.sub-content-profile .sub-content-title {
+    text-align: center;
+    padding: 0.5vw;
+    background-color: #50C1BD;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sub-content-profile table {
+    padding: 1.3vw 1.8vw;
+    width: 100%;
+}
+
+.sub-content-profile table tr {
+    width: inherit;
+    font-size: var(--content_font_size);
+}
+
+.sub-content-profile table tr td {
+    height: 2.4vw;
+}
+
+.sub-content-profile table tr .col1 {
+    width: 50%;
+}
+
+.sub-content-profile table tr .col2 {
+    font-weight: 300;
+}
+
+.sub-content-profile .job-details {
+    padding: 10px 20px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.sub-content-profile .job-details p {
+    text-indent: 2.5rem;
+}
+
+
+
+/* responsive sub content section */
+@media (max-width: 1330px) {
+    .content-profile {
+        padding: 20px 50px;
+    }
+    .sub-content-profile {
+        width: 100%;
+    }
+    .sub-content-profile-empty {
+        display: none;
+    }
+    .user-img-container {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .user-img-container .logo, .user-img-container .another {
+        align-items: center;
+    }
+
+}
+
+/* hiden sub menu */
+@media (max-width: 1000px) {
+    .sub-menu {
+        display: none;
+    }
+
+    .sub-content-profile table tr {
+        font-size: var(--content_font_size_s);
+    }
+}

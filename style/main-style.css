@@ -1,0 +1,33 @@
+@import "navbar.css";
+@import "content.css";
+@import "footer.css";
+@import "input_text.css";
+@import "post.css";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: kanit;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F8FB;
+}
+
+a {
+    text-decoration: none;
+}
+
+.log {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    color: #B89D9D;
+}
+
+@media (max-width: 1000px) {
+    * {
+        font-size: 14px;
+    }
+}

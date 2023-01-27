@@ -1,0 +1,93 @@
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    background-color: #27BDD0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 75%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.header .navbar .logo img {
+    height: 90%;
+    width: auto;
+}
+
+.main-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-menu a {
+    display: block;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 350;
+    padding: 5px 13px;
+    margin: 0px 5px;
+    transition: .3s;
+}
+
+.main-menu .icon-home {
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu a img {
+    width: 20px;
+    height: auto;
+}
+
+.menu-forcompany {
+    outline: 1px solid white;
+    padding-top: -2px;
+}
+
+.main-menu a:hover {
+    outline:none;
+    background-color: #0CA1B4;
+}
+
+.menu-register {
+    background-color: #65DB49;
+}
+
+.icon-home:hover, .text-menu:hover {
+    background-color: #0CA1B4;
+    outline: none;
+}
+
+@media (max-width: 1240px) {
+    .main-menu a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-menu a {
+        font-size: 12px;
+    }
+}

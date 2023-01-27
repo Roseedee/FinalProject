@@ -1,0 +1,262 @@
+@import "public-style-st.css";
+
+:root {
+    --content_font_size_l : 18;
+    --content_font_size_std : 16px;
+    --content_font_size_m : 14px;
+    --content_font_size_s : 12px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+
+.sub-menu {
+    display: flex;
+    display: flex;
+    align-items: center;     
+}
+
+.sub-menu a {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: #C0D6BA;
+    padding: 3px 10px 3px 3px;
+    border-radius: 20px;
+    margin: 0px 10px;
+    color: #000;
+}
+
+.sub-menu a .icon-sub-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.sub-menu a img {
+    width: 60%;
+}
+
+.sub-menu a span {
+    font-size: 0.9vw;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.sub-menu a:hover {
+    background-color: #DFDFDF;
+}
+
+.content-profile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 50px 100px;
+}
+
+.sub-content-profile {
+    width: 50%;
+    padding: 30px 10px 20px 10px;
+}
+
+.user-img-container {
+    width: 100%;
+    text-align: center;
+}
+
+.sub-content-profile-end {
+    float: left;
+}
+
+.user-img-container .user-img {
+    padding-bottom: 1.5vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.user-img-container .user-name {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.user-img-container .user-img img {
+    min-width: 170px;
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sub-content-profile .sub-content-title {
+    text-align: center;
+    padding: 0.5vw;
+    background-color: #97E585;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sub-content-profile table {
+    padding: 1.3vw 1.8vw;
+    width: 100%;
+}
+
+.sub-content-profile table tr {
+    width: inherit;
+    font-size: var(--content_font_size);
+}
+
+.sub-content-profile table tr td {
+    height: 2.4vw;
+}
+
+.sub-content-profile table tr .col1 {
+    width: 30%;
+}
+
+.sub-content-profile table tr .col2 {
+    font-weight: 300;
+}
+
+.extension-sub-content-profile {
+    font-size: 20px;
+    width: 100%;
+}
+
+.extension-sub-content-profile div {
+    font-size: 16px;
+}
+
+.extension-sub-content-profile div {
+    font-weight: 350;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.extension-sub-content-profile .container .selected {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: #E1E1E1;
+    border-radius: 3px;
+    width: fit-content;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.extension-sub-content-profile .container .selected .selected-name {
+    margin-right: 10px;
+}
+
+.extension-sub-content-profile .container .selected .btn-cancel-selected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.extension-sub-content-profile .container .selected .btn-cancel-selected:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.extension-sub-content-profile .container .selected .btn-cancel-selected img {
+    width: 90%;
+}
+
+.extension-sub-content-profile .container .add-selection {
+    cursor: pointer;
+    color: #9199CB;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.extension-sub-content-profile .form-add-selection {
+    /* display: flex; //for show form*/
+    display: none;/*  //for hide form */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 5px 10px 10px;
+}
+
+.extension-sub-content-profile .form-add-selection div {
+    width: 50%;
+}
+
+.extension-sub-content-profile .form-add-selection .submit-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.extension-sub-content-profile .form-add-selection div select {
+    width: 95%;
+}
+
+.input {
+    min-width: 300px;
+}
+
+.submit {
+    min-width: 80px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.btn-cancel {
+    margin-left: 10px;
+}
+
+.chart-container{
+    width: 100%;
+}
+
+.chart-container div {
+    padding-top: 20px;
+    width: 95%;
+}
+
+.input-section {
+    padding-right: 5px;
+}
+
+/* responsive sub content section */
+@media (max-width: 1330px) {
+    .content-profile {
+        padding: 20px 50px;
+    }
+    .sub-content-profile {
+        width: 100%;
+    }
+    .sub-content-profile-empty {
+        display: none;
+    }
+
+}
+
+/* hiden sub menu */
+@media (max-width: 1000px) {
+    .sub-menu {
+        display: none;
+    }
+    .extension-sub-content-profile .form-add-selection {
+        flex-direction: column;
+    }
+    .sub-content-profile table tr {
+        font-size: var(--content_font_size_s);
+    }
+}

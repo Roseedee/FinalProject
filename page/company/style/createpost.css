@@ -1,0 +1,81 @@
+@import "public-style-cp.css";
+
+.content-create-post {
+    padding-bottom: 50px;
+}
+
+.input-section {
+    padding: 0px 10px 0px 0px;
+}
+
+.input-group:last-child {
+    margin: 20px 0px; 
+}
+
+.add-skill {
+    background-color: #9199CB;
+    color: #fff;
+    flex-grow: 1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-skill:hover {
+    background-color: #acb1d6;
+}
+
+.container-skill {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skill {
+    display: flex;
+    background-color: #E1E1E1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.skill .skill-name {
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.btn-cancel-skill {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-cancel-skill:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.btn-cancel-skill img {
+    width: 90%;
+}
+
+.form-input form span {
+    margin: 0px;
+}
+
+.input-submit {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}

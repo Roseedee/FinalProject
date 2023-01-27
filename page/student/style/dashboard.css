@@ -1,0 +1,44 @@
+@import "public-style-st.css";
+
+.content-dashboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+.container-search {
+    /* background-color: antiquewhite; */
+    padding: 10px;
+}
+.container-search:last-child {
+    width: 70%;
+}
+
+.container-title-condition {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.container-title-condition img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.container-title-search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.container-title-search img { 
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+

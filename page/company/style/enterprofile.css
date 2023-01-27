@@ -1,0 +1,30 @@
+@import "public-style-cp.css";
+
+.main-menu a .account-menu-company {
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.content-enterprofile .form-input {
+    width: 100%;
+}
+
+.input-email {
+    flex-grow: 2;
+}
+
+.sub-input {
+    flex-grow: 1;
+    padding: 5px 5px;
+}
+
+.input-section {
+    padding-right: 5px;
+}
+
+
+
+
+

@@ -1,0 +1,66 @@
+@import "public-style-st.css";
+
+.banner {
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+
+.title-quiz {
+    padding: 15px 0px 0px 30px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.container-quiz {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding:15px 30px 50px 30px;
+}
+
+.form-quiz {
+    padding: 10px 50px;
+}
+
+.quiz-card {
+    background-color: #E7F1FD;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.quiz {
+    font-size: 18px;
+}
+
+.option {
+    padding-top: 10px;
+}
+
+.option label {
+    margin-right: 20px;
+    font-weight: 300;
+    font-size:16px;
+}
+
+.option input {
+    margin-right: 5px;
+}
+
+.option input:first-child {
+    margin-left: 20px;
+}
+
+.submit {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 8px 50px;
+}
