@@ -1,8 +1,4 @@
 <?php 
-    // $host = "localhost";
-    // $username = "id20129649_roseedee";
-    // $password = "|@mfwXflZC}Z9pkT";
-    // $database = "id20129649_myinternship_database";
     $host = "localhost";
     $username = "root";
     $password = "";
